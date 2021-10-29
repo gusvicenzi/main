@@ -1,0 +1,209 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #FF865E;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #FF865E;
+  font-weight: bold;
+  margin: 5% auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF865E;
+  font-weight: bold;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #A2D2FF 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 5% auto;
+}
+
+a {
+  text-decoration: none;
+  margin: 2%;
+}
+
+.top-container {
+  background-color: #A2D2FF;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding: 100px 0 50px;
+  background-color: #FEF9EF;
+}
+
+.bottom-container {
+  background-color: #A2D2FF;
+  margin: 0;
+  padding: 30px 0 20px;
+  color: #FF865E;
+}
+
+.subtop {
+  padding: 20px 0 0;
+  background: linear-gradient(to bottom, #0052a4 0%, #0052a4 60%, #FEE440 60%, #FEE440 100%);
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 60%;
+  margin: 10% auto 10% auto;
+  text-align: justify;
+}
+
+.gustavo-img {
+  width: 15%;
+}
+
+.matlab-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.latex-img {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.web-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.sun-img {
+  position: absolute;
+  height: 150px;
+  right: 150px;
+  top: 50px;
+}
+
+.top-cloud-img {
+  position: absolute;
+  height: 120px;
+  right: 100px;
+  top: 120px;
+}
+
+.parasol-img {
+  height: 300px;
+}
+
+.bottom-cloud-img {
+  position: absolute;
+  height: 150px;
+  left: 150px;
+  top: 250px;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  background-color: #FF865E;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 2em auto 3em auto;
+}
+
+.btn:hover {
+  background: #DF7450;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #FF865E;
+}
+
+.footer-link:hover {
+  color: #DF7450;
+}
+
+.linkedin-logo {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(63%) sepia(64%) saturate(959%) hue-rotate(319deg) brightness(100%) contrast(101%);
+}
+
+.linkedin-logo:hover {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(58%) sepia(63%) saturate(748%) hue-rotate(324deg) brightness(91%) contrast(91%);
+}
+
+.twitter-logo {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(63%) sepia(64%) saturate(959%) hue-rotate(319deg) brightness(100%) contrast(101%);
+}
+
+.twitter-logo:hover {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(58%) sepia(63%) saturate(748%) hue-rotate(324deg) brightness(91%) contrast(91%);
+}
+
+.instagram-logo {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(63%) sepia(64%) saturate(959%) hue-rotate(319deg) brightness(100%) contrast(101%);
+}
+
+.instagram-logo:hover {
+  display: inline-block;
+  width: 2.5%;
+  filter: invert(58%) sepia(63%) saturate(748%) hue-rotate(324deg) brightness(91%) contrast(91%);
+}
+
+.copyright {
+  margin-bottom: 0;
+  color: #FF865E;
+  font-size: 1.1rem;
+}
